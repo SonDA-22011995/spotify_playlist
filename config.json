@@ -1,7 +1,7 @@
 {
   "spotify_api": {
-    "client_id": "07e526de818d4a30b19340979bccd950",
-    "client_secret": "b7bb2fb26d6f403ca595d8796f68350f",
+    "client_id": "<TYPE YOUR client_id>",
+    "client_secret": "<TYPE YOUR client_secret>",
     "get_authorization": {
       "method": "GET",
       "endpoint": "https://accounts.spotify.com/authorize",
