@@ -86,13 +86,14 @@ while is_run:
             save_data(file_path="./data/playlist.csv", csv_data=spotify.playlists)
             print("Good bye see ya")
         case "1":
-            login()
+            if playlist:
+                login()
 
-            if getattr(spotify,"user_profile",""):
-                print(f"""
+                if getattr(spotify,"user_profile",""):
+                    print(f"""
 Login successfully user {spotify.get_user_profile_name()}
 """)
-                travel_to_playlist()
+            travel_to_playlist()
 
 
 
